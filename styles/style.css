@@ -1,0 +1,229 @@
+:root {
+    --color-text: #2f281e;
+    --color-link: #1943ef;
+    --color-light: #ffffff;
+    --color-hover: #ff7549;
+    --color-error: #f03e3d;
+    --color-border: #bcd0e5;
+    --color-primary: #ff9900;
+    --color-subtitle: #544837;
+    --color-tag-grey: #f5f5f5;
+    --color-secondary: #173a56;
+    --color-tag-border: #d7d7d7;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body {
+    font-family: "Open Sans", "Poppins", Arial, Helvetica, sans-serif;
+    color: var(--color-text);
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.wrapper {
+    max-width: 1198px;
+    width: calc(100vw - 46px);
+    margin: 0 auto;
+}
+
+.header {
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+    padding-top: 15px;
+    padding-bottom: 17px;
+}
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-group {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 11.38px;
+}
+.navigation-list {
+    display: flex;
+    gap: 20px;
+}
+.list-link {
+    text-decoration: none;
+    color: var(--color-text);
+}
+.list-link:hover {
+    color: var(--color-primary);
+}
+
+.btn {
+    text-align: center;
+    font-family: inherit;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 11px 27px 13px;
+}
+.btn:active {
+    scale: 0.98;
+}
+.btn-bordered {
+    background: none;
+    color: var(--color-secondary);
+    border: 1px solid var(--color-border);
+}
+.btn-bordered:hover {
+    background-color: var(--color-border);
+}
+.btn-colored {
+    background-color: var(--color-primary);
+    color: var(--color-light);
+}
+.btn-colored:hover {
+    background-color: var(--color-hover);
+}
+
+.btn-group {
+
+    align-items: center;
+    gap: 15px;
+}
+
+/* Promo section */
+.promo {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.layout-2-column {
+    display: flex;
+    align-items: center;
+}
+.promo__content {
+    padding-right: 90px;
+}
+.promo__title {
+    color: var(--color-text);
+    font-family: "Poppins";
+    font-size: 4.4rem;
+    font-weight: 700;
+    line-height: 54px;
+    margin-bottom: 30px;
+}
+.promo__description {
+    color: var(--color-subtitle);
+    font-family: "Poppins";
+    font-size: 1.8rem;
+    margin-bottom: 45px;
+}
+.promo__btn-group {
+    display: flex;
+    gap: 44px;
+    align-items: center;
+}
+.video-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.video-link > a {
+    color: var(--color-primary);
+    font-family: "Poppins";
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+.video-link > a:hover {
+    color: var(--color-hover);
+}   
+
+.main-icons { 
+    display: flex;  
+    max-width: 1198px;
+    width: calc(100vw - 46px);
+margin: 0 auto;
+    gap: 140px; 
+    margin-top: 100px;
+ 
+
+}
+.main__title { 
+    color: var(--color-text);
+text-align: center;
+font-family: Open Sans;
+font-size: 34px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+} 
+.icons { 
+    width: 50px;
+    height: 50px;
+    border-radius: 19px; 
+    flex-shrink: 0;  
+    margin-bottom: 30px ;
+
+} 
+.icon1 { 
+background-color: #7752BE; 
+ display: flex;
+justify-content: center; 
+align-items: center; 
+} 
+.icon2 { 
+    background: #FAB005;  
+    display: flex;
+    justify-content: center; 
+    align-items: center; } 
+.icon3 { 
+        background: #F03E3D; 
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    } 
+.icon4 { 
+        background: #4DADF7; 
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    } 
+.icons-last { 
+   
+    color:var(--color-text);
+font-family: Open Sans;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal; 
+margin-bottom: 16px ;
+} 
+.icons-last__last { 
+    color: #544837;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+} 
+.btn-main { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 60px; 
+
+}
